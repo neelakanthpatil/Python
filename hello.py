@@ -4,7 +4,10 @@
 import sys
 
 def main():
-  print ('Hello, World')
+  fname = sys.argv[1]
+  lname = sys.argv[2]
+  print ("The script Name is", sys.argv[0])
+  print ('Hello,', fname, lname)
 
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
